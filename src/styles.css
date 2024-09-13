@@ -1,3 +1,14 @@
 body{
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+#homeCon{
+    background-color: red;
+}
+.card img{
+    max-width: 70%;
+    min-height: 70%;
+    
+}
+.menu {
+    display: flex;
 }
