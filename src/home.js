@@ -6,8 +6,8 @@
     name.innerText="Meet Meat";
     sign.innerText="Meet Your Fancy Dinner";
     menu.innerText="Menu"
-    menu.setAttribute("id","menu");
-    containerDiv.setAttribute("id","homeCon")
+    menu.id="menuB";
+    containerDiv.classList.add("home")
     containerDiv.appendChild(name);
     containerDiv.appendChild(sign);
     containerDiv.appendChild(menu);

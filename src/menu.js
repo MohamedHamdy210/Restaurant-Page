@@ -45,11 +45,7 @@ function menu(){
             <button>Order</button>
         </div>`
     }
-
-    
-
-
-
+    containerDiv.classList.add("con")
     containerDiv.appendChild(name);
     containerDiv.appendChild(mContent);
     

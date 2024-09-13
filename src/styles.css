@@ -1,14 +1,121 @@
-body{
-    /* background-color: aqua; */
+*{
+margin: 0;
 }
-#homeCon{
-    background-color: red;
+body{
+    background-image: url(assets/jeremy-bishop-8xznAGy4HcY-unsplash.jpg);
+    background-size: cover;
+}
+header{
+    padding-left: .5rem;
+    font-size: larger;
+    color: white;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    min-height: 4rem;
+    background-color: black;
+}
+ 
+nav button{
+    min-height: 4rem;
+    background-color: black;
+    color: white;
+    border: none;
+    min-width: 4rem;
+    font-size: large;
+}
+nav button:hover{
+    background-color: white;
+    color: black;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 40rem;
+    
+}
+.home{
+    font-size: larger;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 4rem;
+    min-height: 18rem;
+    min-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.home button{
+    font-size: larger;
+    min-height: 3rem;
+    min-width: 12rem;
+    margin-top: 10rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: .5rem;
+}
+.mList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.card{
+    border-radius: 1rem;
+    font-size: larger;
+    background-color: white;
+    min-height: 18rem;
+    padding: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .card img{
-    max-width: 70%;
+    max-width: 100%;
     min-height: 70%;
+
+}
+.card button{
+    min-height: 3rem;
+    min-width: 12rem;
     
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: .5rem;
 }
 .menu {
     display: flex;
+    gap :1.5rem;
+    padding: 1rem;
+}
+.info{
+    border-radius: 1rem;
+    font-size: larger;
+    background-color: white;
+    min-height: 18rem;
+    padding: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info img{
+    width: 50%;
+    height: 30rem;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: .5rem;
 }
