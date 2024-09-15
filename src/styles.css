@@ -78,8 +78,8 @@ nav button:hover{
 
 }
 .card img{
-    max-width: 100%;
-    min-height: 70%;
+    width: 80%;
+    height: 70%;
 
 }
 .card button{
@@ -93,6 +93,7 @@ nav button:hover{
 }
 .menu {
     display: flex;
+    flex-direction: column;
     gap :1.5rem;
     padding: 1rem;
 }
@@ -118,4 +119,7 @@ nav button:hover{
     align-items: center;
     gap: 1rem;
     padding-top: .5rem;
+}
+.con img{
+    width: 50em;
 }
